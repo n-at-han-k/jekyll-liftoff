@@ -1,9 +1,18 @@
 <!DOCTYPE html>
 <html lang="{{ page.lang | default: site.lang | default: "en" }}">
 <head>
+    {% include google-tag-head.html %}
     {% include head.html %}
+
+    <!-- Write a comment here about this -->
+    <style>
+        ::-webkit-details-marker {
+            display:none;
+        }
+    </style>
 </head>
 <body>
+    {% include google-tag-body.html %}
     {{ content }}
 </body>
 </html>
