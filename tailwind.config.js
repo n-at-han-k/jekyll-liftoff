@@ -15,9 +15,9 @@ module.exports = {
       }
     },
     fontFamily: {
-      'display': ['"Poppins"', 'Helvetica Neue', 'Arial', 'sans-serif'],
-      'body': ['Poppins', 'Helvetica Neue', 'Arial', 'sans-serif'],
-      'sans': ['Poppins', 'Helvetica Neue', 'Arial', 'sans-serif']
+      'display': ['Helvetica Neue', 'Arial', 'sans-serif'],
+      'body': ['Helvetica Neue', 'Arial', 'sans-serif'],
+      'sans': ['Helvetica Neue', 'Arial', 'sans-serif']
     },
   },
   variants: {
