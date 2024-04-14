@@ -1,15 +1,25 @@
 title: My Site
 description: My very nice site
 
-url: 'n-at-han-k.github.io'
-baseurl: '/jekyll-tailwind-stimulus'
-
+# Development URL
 #importmap:
   #devurl: 'http://127.0.0.1:4000/jekyll-tailwind-stimulus'
 
+# Staging URL
+url: 'n-at-han-k.github.io'
+baseurl: '/jekyll-liftoff'
+
+# Production URL
+#url: ''
+
 plugins:
-  - jekyll-postcss
+  - jekyll-postcss-v2
   - jekyll-importmap
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-archives
+  - jekyll-paginate
+  - jemoji
 
 postcss:
   cache: false
@@ -37,3 +47,14 @@ include:
 
 #########################################
 # CUSTOM BELOW
+
+social:
+  instagram: 'https://www.instagram.com/jekyllrb/'
+  facebook: 'https://www.facebook.com/jekyll'
+
+google_analytics: G-X00XXXXXXX
+
+contact:
+  phone: 0123456789
+  email: jekyll@jekyll.com
+  address: 32 Jekyll Street
